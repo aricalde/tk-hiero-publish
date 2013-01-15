@@ -1,0 +1,24 @@
+#
+# Copyright (c) 2012 Cluster Studio S. C.
+# -----------------------------------------
+#
+# Metadata defining the behaviour and requirements for this app
+
+# expected fields in the configuration file for this app
+configuration:
+    # Configuration settings definitions
+    
+
+requires_shotgun_fields:
+    # Shotgun fields that this app expects
+
+# The app name, formatted for use in UIs (optional)
+display_name: "Publish"
+description: "Publishing and Version Control in Hiero"
+
+# List of engines with which this app works (optional)
+supported_engines: ["tk-hiero"]
+
+# List of frameworks which are needed to run the app (optional)
+frameworks: []
+
